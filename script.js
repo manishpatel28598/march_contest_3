@@ -55,8 +55,8 @@ function makeItem(itemName,priority,date){
         <div>Priority: ${priority}</div>
         <div>${date}</div>
         <div id="taskIcon">
-            <img src="images/check-circle.png" id="check" alt="mark complete">
-            <img src="images/trash.png" id="trash" alt="delete">
+            <img src="./icons/check-circle.png" id="check" alt="mark complete">
+            <img src="./icons/trash.png" id="trash" alt="delete">
         </div>
     `;
 

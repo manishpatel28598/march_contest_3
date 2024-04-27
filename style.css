@@ -85,7 +85,6 @@ select:focus{
     height: 50px;
 }
 
-/* ---------------- ---X X X X X X X X X X X X ----------------------*/
 .list{
     display: flex;
     flex-direction: column;
