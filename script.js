@@ -80,7 +80,7 @@ function addTaskToList(taskDiv,date,itemName,priority,completed){
         checkBtn.classList.add('hide');
         taskDiv.style.color='black';
         taskDiv.style.backgroundColor='white';
-        trashBtn.setAttribute('src', 'images/trash-black.png');
+        trashBtn.setAttribute('src', './icons/trash-black.png');
     } else {
         if (todayDateString === selectedDateString) todayDiv.append(taskDiv);
         else futureDiv.append(taskDiv);
